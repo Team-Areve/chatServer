@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:server": "babel src -d build",
+    "build": "npm run build:server",
     "start": "build/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
